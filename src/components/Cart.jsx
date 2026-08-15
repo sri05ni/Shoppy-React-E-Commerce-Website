@@ -1,5 +1,4 @@
 import React from 'react'
-import { Card, CardGroup, Button, ButtonGroup,Col } from "react-bootstrap";
 import prod from '../data/product'
 
 
