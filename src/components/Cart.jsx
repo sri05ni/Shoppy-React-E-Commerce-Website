@@ -49,37 +49,7 @@ function Cart(props) {
       })}
         </div>
         </div>
-    {/* <div className="cart-info">
-       <CardGroup>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      </CardGroup>
-</div> */}
- {/* <div className="container mt-4">
-          <div className="card border border-secondary border-3">
-            <img
-              src={image}
-              alt="Not Found"
-              className="card-img-top "
-              style={{ width: "100%", height: 250 }}
-            />
-            <div className="card-body">
-              <h5 className="card-title text-danger"> ₹{price}</h5>
-              <p style={{ width: "100%" ,color:"black"}}> {name || "Anonymous"}</p>
-            </div>
-          </div>
-        </div> */}
+    
     </>
   )
 }
