@@ -4,28 +4,20 @@ import {LinkContainer} from 'react-router-bootstrap'
 function Header(props) {
   return (
     <>
-    <Navbar bg='dark' variant='dark' collapseOnSelect>
-        <Container>
-            <LinkContainer to="/">
-            <Navbar.Brand>Ecommerce Layout</Navbar.Brand>
-            </LinkContainer>
-             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <LinkContainer to="/">
-            <Nav.Link >Home</Nav.Link>
-            </LinkContainer>
+    <Navbar expand="lg" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="/">Shoppy</Navbar.Brand>
 
-            <LinkContainer to="/product">
-            <Nav.Link >Products</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/cart">
-            <Nav.Link > Cart {props.cartcount}</Nav.Link>
-            </LinkContainer>
-            
+        <Navbar.Toggle aria-controls="main-navbar" />
+
+        <Navbar.Collapse id="main-navbar">
+          <Nav className="ms-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/products">Products</Nav.Link>
+            <Nav.Link href="/cart">Cart {props.cartcount}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        </Container>
+      </Container>
     </Navbar>
     </>
   )
