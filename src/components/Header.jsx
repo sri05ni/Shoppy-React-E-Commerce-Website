@@ -12,7 +12,7 @@ function Header(props) {
         <Navbar.Collapse id="main-navbar">
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/products">Products</Nav.Link>
+            <Nav.Link href="/product">Products</Nav.Link>
             <Nav.Link href="/cart">Cart {props.cartcount}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
