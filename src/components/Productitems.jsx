@@ -1,15 +1,10 @@
 import React, { Component } from "react";
 import { Button, ButtonGroup } from "react-bootstrap";
-import Product from "./Product";
 
 export default class Productitems extends Component {
-  // addTocart(prod){
-  //   console.log("added",prod)
-  //   alert("Added to Cart")
-
-  // }
+  
   render() {
-    let { id, name, price, image, category } = this.props;
+    let { id, name, price, image} = this.props;
     return (
       <>
         <div className="container mt-4">
