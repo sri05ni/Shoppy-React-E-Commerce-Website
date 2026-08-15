@@ -5,7 +5,7 @@ import prod from '../data/product'
 
 export default class Product extends Component {
   render() {
-  
+
     const jeans = prod.filter((items) => items.category === "jeans");
     const watch = prod.filter((items) => items.category === "Watch");
     const shoes = prod.filter((items) => items.category === "Shoes");
